@@ -17,7 +17,7 @@
             <div><a href="https://github.com/femboypig/frontpage">source code</a></div>
             <div><a href="NOTICE.txt">notice file</a></div>
             <div>built at: 2026-07-11</div>
-            <div>revision: cc5391b4</div>
+            <div>revision: <code id="revision">cc5391b4</code></div>
         </header>
         <main>
             <h1>hi!</h1>
@@ -92,5 +92,15 @@ vB1Gj7M3pQ5q7F8y/B3zD4w2h6S5e8D7D9G1A3C4v5w6y7K8B8w9A0B8y5D2s6C
                 </ul>
             </p>
         </main>
+        <script>
+            fetch('https://api.github.com/repos/femboypig/frontpage/commits/main')
+                .then(res => res.json())
+                .then(data => {
+                    if (data && data.sha) {
+                        document.getElementById('revision').textContent = data.sha.substring(0, 8);
+                    }
+                })
+                .catch(err => console.error('failed to fetch revision:', err));
+        </script>
     </body>
 </html>
