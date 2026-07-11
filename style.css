@@ -1,0 +1,300 @@
+@charset "UTF-8";
+/*
+ * femboypig: the official styling of femboypig. oink!
+ * Copyright (C) 2026 femboypig <harimassaa@gmail.com>
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * The program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ *
+ * The content is dedicated to the public domain; it is marked under the
+ * Creative Commons CC0 license, as per the terms described in the license file,
+ * or as can be seen in publicly-available copy of the CC0 license:
+ * <https://creativecommons.org/publicdomain/zero/1.0/>.
+ *
+ * By marking the work with a CC0 public domain dedication, the creator is giving
+ * up their copyright and allowing reusers to distribute, remix, adapt, and build
+ * upon the material in any medium or format, even for commercial purposes.
+ *
+ * The exception to those licenses are files in the `static/` directory. They are
+ * not created by me, and the license and rights of the original copyright
+ * holder(s) applies.
+ */
+/* iosevka-latin-100-italic */
+@font-face {
+  font-family: "Iosevka";
+  font-style: italic;
+  font-display: swap;
+  font-weight: 100;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-100-italic.woff2) format("woff2"), url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-100-italic.woff) format("woff"), url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-100-italic.ttf) format("truetype");
+}
+/* iosevka-latin-200-italic */
+@font-face {
+  font-family: "Iosevka";
+  font-style: italic;
+  font-display: swap;
+  font-weight: 200;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-200-italic.woff2) format("woff2"), url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-200-italic.woff) format("woff"), url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-200-italic.ttf) format("truetype");
+}
+/* iosevka-latin-300-italic */
+@font-face {
+  font-family: "Iosevka";
+  font-style: italic;
+  font-display: swap;
+  font-weight: 300;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-300-italic.woff2) format("woff2"), url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-300-italic.woff) format("woff"), url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-300-italic.ttf) format("truetype");
+}
+/* iosevka-latin-400-italic */
+@font-face {
+  font-family: "Iosevka";
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-400-italic.woff2) format("woff2"), url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-400-italic.woff) format("woff"), url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-400-italic.ttf) format("truetype");
+}
+/* iosevka-latin-500-italic */
+@font-face {
+  font-family: "Iosevka";
+  font-style: italic;
+  font-display: swap;
+  font-weight: 500;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-500-italic.woff2) format("woff2"), url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-500-italic.woff) format("woff"), url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-500-italic.ttf) format("truetype");
+}
+/* iosevka-latin-600-italic */
+@font-face {
+  font-family: "Iosevka";
+  font-style: italic;
+  font-display: swap;
+  font-weight: 600;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-600-italic.woff2) format("woff2"), url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-600-italic.woff) format("woff"), url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-600-italic.ttf) format("truetype");
+}
+/* iosevka-latin-700-italic */
+@font-face {
+  font-family: "Iosevka";
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-700-italic.woff2) format("woff2"), url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-700-italic.woff) format("woff"), url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-700-italic.ttf) format("truetype");
+}
+/* iosevka-latin-800-italic */
+@font-face {
+  font-family: "Iosevka";
+  font-style: italic;
+  font-display: swap;
+  font-weight: 800;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-800-italic.woff2) format("woff2"), url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-800-italic.woff) format("woff"), url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-800-italic.ttf) format("truetype");
+}
+/* iosevka-latin-900-italic */
+@font-face {
+  font-family: "Iosevka";
+  font-style: italic;
+  font-display: swap;
+  font-weight: 900;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-900-italic.woff2) format("woff2"), url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-900-italic.woff) format("woff"), url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-900-italic.ttf) format("truetype");
+}
+/* uncut-sans-latin-300-italic */
+@font-face {
+  font-family: "Uncut Sans";
+  font-style: italic;
+  font-display: swap;
+  font-weight: 300;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/uncut-sans@latest/latin-300-italic.woff2) format("woff2"), url(https://cdn.jsdelivr.net/fontsource/fonts/uncut-sans@latest/latin-300-italic.woff) format("woff"), url(https://cdn.jsdelivr.net/fontsource/fonts/uncut-sans@latest/latin-300-italic.ttf) format("truetype");
+}
+/* uncut-sans-latin-400-italic */
+@font-face {
+  font-family: "Uncut Sans";
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/uncut-sans@latest/latin-400-italic.woff2) format("woff2"), url(https://cdn.jsdelivr.net/fontsource/fonts/uncut-sans@latest/latin-400-italic.woff) format("woff"), url(https://cdn.jsdelivr.net/fontsource/fonts/uncut-sans@latest/latin-400-italic.ttf) format("truetype");
+}
+/* uncut-sans-latin-500-italic */
+@font-face {
+  font-family: "Uncut Sans";
+  font-style: italic;
+  font-display: swap;
+  font-weight: 500;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/uncut-sans@latest/latin-500-italic.woff2) format("woff2"), url(https://cdn.jsdelivr.net/fontsource/fonts/uncut-sans@latest/latin-500-italic.woff) format("woff"), url(https://cdn.jsdelivr.net/fontsource/fonts/uncut-sans@latest/latin-500-italic.ttf) format("truetype");
+}
+/* uncut-sans-latin-600-italic */
+@font-face {
+  font-family: "Uncut Sans";
+  font-style: italic;
+  font-display: swap;
+  font-weight: 600;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/uncut-sans@latest/latin-600-italic.woff2) format("woff2"), url(https://cdn.jsdelivr.net/fontsource/fonts/uncut-sans@latest/latin-600-italic.woff) format("woff"), url(https://cdn.jsdelivr.net/fontsource/fonts/uncut-sans@latest/latin-600-italic.ttf) format("truetype");
+}
+/* uncut-sans-latin-700-italic */
+@font-face {
+  font-family: "Uncut Sans";
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/uncut-sans@latest/latin-700-italic.woff2) format("woff2"), url(https://cdn.jsdelivr.net/fontsource/fonts/uncut-sans@latest/latin-700-italic.woff) format("woff"), url(https://cdn.jsdelivr.net/fontsource/fonts/uncut-sans@latest/latin-700-italic.ttf) format("truetype");
+}
+
+/* Color Scheme - Light Mode (Antigravity Sky Ice Theme) */
+@media (prefers-color-scheme: light) {
+  html {
+    background-color: #f0f3f8;
+    color: #1b1e2b;
+  }
+  a:link {
+    color: #008080;
+  }
+  a:visited {
+    color: #6b21a8;
+  }
+  a:focus,
+  a:hover {
+    color: #d97706;
+  }
+  a:active {
+    color: #be185d;
+  }
+  header > #link * {
+    color: #f0f3f8;
+    background-color: #1b1e2b;
+  }
+  header :nth-child(odd) * {
+    color: #0284c7;
+  }
+  header :nth-child(even) * {
+    color: #db2777;
+  }
+  pre {
+    background-color: rgba(0, 0, 0, 0.02);
+    border: 1px dashed rgba(0, 0, 0, 0.15);
+  }
+}
+
+/* Color Scheme - Dark Mode (Antigravity Cosmos Theme) */
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: #0c0a12;
+    color: #d5d2e0;
+  }
+  a:link {
+    color: #00f5d4;
+  }
+  a:visited {
+    color: #9b5de5;
+  }
+  a:focus,
+  a:hover {
+    color: #fee440;
+  }
+  a:active {
+    color: #f15bb5;
+  }
+  header > #link * {
+    color: #0c0a12;
+    background-color: #d5d2e0;
+  }
+  header :nth-child(odd) * {
+    color: #00bbf9;
+  }
+  header :nth-child(even) * {
+    color: #f15bb5;
+  }
+  pre {
+    background-color: rgba(255, 255, 255, 0.03);
+    border: 1px dashed rgba(255, 255, 255, 0.12);
+  }
+}
+
+/* Layout & Typography (Copied from Alice's frontpage layout) */
+header {
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+
+@media(min-width: 600px) {
+  header {
+    flex-direction: row;
+    align-items: stretch;
+    gap: 4px;
+  }
+  #link {
+    margin-right: 4px;
+  }
+}
+
+@media(max-width: 600px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header * {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  height: 100dvh;
+  width: 100dvw;
+  margin: 0;
+  font-family: "Uncut Sans Regular", sans-serif;
+}
+
+body > * {
+  width: 100%;
+}
+
+code {
+  font-family: "Iosevka Regular", monospace;
+}
+
+main {
+  padding: 6px;
+  height: calc(100% - 12px);
+  width: calc(100% - 12px);
+  overflow: auto;
+  overflow-wrap: break-word;
+  margin-inline: auto;
+  max-width: 1200px;
+}
+
+* {
+  text-transform: lowercase;
+}
+
+code {
+  text-transform: none;
+}
+
+header a {
+  text-decoration: none;
+}
+
+/* Pre block formatting for keys */
+pre {
+  padding: 10px;
+  overflow-x: auto;
+  border-radius: 4px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+pre code {
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+  white-space: pre;
+}

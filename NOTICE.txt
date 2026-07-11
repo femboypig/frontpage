@@ -1,0 +1,28 @@
+femboypig's frontpage: my personal frontpage on the internet. yay!
+Copyright (C) 2026 femboypig <harimassaa@gmail.com>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+The program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+The content is dedicated to the public domain; it is marked under the
+Creative Commons CC0 license, as per the terms described in the license file,
+or as can be seen in publicly-available copy of the CC0 license:
+<https://creativecommons.org/publicdomain/zero/1.0/>.
+
+By marking the work with a CC0 public domain dedication, the creator is giving
+up their copyright and allowing reusers to distribute, remix, adapt, and build
+upon the material in any medium or format, even for commercial purposes.
+
+The exception to those licenses are files in the `static/` directory. They are
+not created by me, and the license and rights of the original copyright
+holder(s) applies.
