@@ -177,34 +177,35 @@
   }
 }
 
-/* Color Scheme - Dark Mode (Antigravity Cosmos Theme) */
+/* Color Scheme - Dark Mode (OLED Pitch-Black Theme) */
 @media (prefers-color-scheme: dark) {
   html {
-    background-color: #0c0a12;
-    color: #d5d2e0;
+    background-color: #000000;
+    color: #f8f9fa;
   }
   a:link {
-    color: #00f5d4;
+    color: #00ffcc;
   }
   a:visited {
-    color: #9b5de5;
+    color: #d000ff;
   }
   a:focus,
   a:hover {
-    color: #fee440;
+    color: #ffff00;
+    text-shadow: 0 0 8px rgba(255, 255, 0, 0.5);
   }
   a:active {
-    color: #f15bb5;
+    color: #ff007f;
   }
   header > #link * {
-    color: #0c0a12;
-    background-color: #d5d2e0;
+    color: #000000;
+    background-color: #ffffff;
   }
   header :nth-child(odd) * {
-    color: #00bbf9;
+    color: #00e5ff;
   }
   header :nth-child(even) * {
-    color: #f15bb5;
+    color: #ff007f;
   }
   pre {
     background-color: rgba(255, 255, 255, 0.03);
