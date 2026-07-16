@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -29,8 +31,13 @@
             <div id="link"><a href="index.html">femboypig's frontpage</a></div>
             <div><a href="https://github.com/femboypig/frontpage">source code</a></div>
             <div><a href="NOTICE.txt">notice file</a></div>
-            <div>built at: 2026-07-11</div>
-            <div>revision: <code id="revision">cc5391b4</code></div>
+            <div>built at: {{ site.time | date: "%Y-%m-%d" }}</div>
+            <div>
+                revision:
+                <a href="https://github.com/femboypig/frontpage/commit/{{ site.github.build_revision }}">
+                    <code>{{ site.github.build_revision | slice: 0, 8 }}</code>
+                </a>
+            </div>
         </header>
         <main>
             <h1>hi!</h1>
@@ -141,15 +148,5 @@ DAAKCRDNVWr0ili/SR3rAQD7XKJV/gjjeChj9TuUjqJkw/oPUJbnw/w7KaFyU5PW
                 for details, see the <a href="NOTICE.txt">notice file</a>.
             </p>
         </main>
-        <script>
-            fetch('https://api.github.com/repos/femboypig/frontpage/commits/main')
-                .then(res => res.json())
-                .then(data => {
-                    if (data && data.sha) {
-                        document.getElementById('revision').textContent = data.sha.substring(0, 8);
-                    }
-                })
-                .catch(err => console.error('failed to fetch revision:', err));
-        </script>
     </body>
 </html>
