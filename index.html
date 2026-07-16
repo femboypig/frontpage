@@ -1,5 +1,3 @@
----
----
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -31,11 +29,11 @@
             <div id="link"><a href="index.html">femboypig's frontpage</a></div>
             <div><a href="https://github.com/femboypig/frontpage">source code</a></div>
             <div><a href="NOTICE.txt">notice file</a></div>
-            <div>built at: {{ site.time | date: "%Y-%m-%d" }}</div>
+            <div>built at: <time id="built-at">loading…</time></div>
             <div>
                 revision:
-                <a href="https://github.com/femboypig/frontpage/commit/{{ site.github.build_revision }}">
-                    <code>{{ site.github.build_revision | slice: 0, 8 }}</code>
+                <a id="revision-link" href="https://github.com/femboypig/frontpage/commits/main">
+                    <code id="revision">loading…</code>
                 </a>
             </div>
         </header>
@@ -132,5 +130,48 @@
                 for details, see the <a href="NOTICE.txt">notice file</a>.
             </p>
         </main>
+        <script>
+            const builtAt = document.getElementById("built-at");
+            const revision = document.getElementById("revision");
+            const revisionLink = document.getElementById("revision-link");
+            const cacheKey = "frontpage-main-commit";
+            const cacheLifetime = 60 * 60 * 1000;
+
+            function displayCommit(commit) {
+                builtAt.textContent = commit.date.slice(0, 10);
+                builtAt.dateTime = commit.date;
+                revision.textContent = commit.sha.slice(0, 8);
+                revisionLink.href = `https://github.com/femboypig/frontpage/commit/${commit.sha}`;
+            }
+
+            try {
+                const cached = JSON.parse(localStorage.getItem(cacheKey));
+                if (cached && Date.now() - cached.cachedAt < cacheLifetime) {
+                    displayCommit(cached);
+                } else {
+                    fetch("https://api.github.com/repos/femboypig/frontpage/commits/main")
+                        .then(response => {
+                            if (!response.ok) throw new Error(`GitHub API returned ${response.status}`);
+                            return response.json();
+                        })
+                        .then(data => {
+                            const commit = {
+                                sha: data.sha,
+                                date: data.commit.committer.date,
+                                cachedAt: Date.now()
+                            };
+                            localStorage.setItem(cacheKey, JSON.stringify(commit));
+                            displayCommit(commit);
+                        })
+                        .catch(() => {
+                            builtAt.textContent = "unavailable";
+                            revision.textContent = "unavailable";
+                        });
+                }
+            } catch {
+                builtAt.textContent = "unavailable";
+                revision.textContent = "unavailable";
+            }
+        </script>
     </body>
 </html>
