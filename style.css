@@ -29,119 +29,6 @@
  * not created by me, and the license and rights of the original copyright
  * holder(s) applies.
  */
-/* iosevka-latin-100-italic */
-@font-face {
-  font-family: "Iosevka";
-  font-style: italic;
-  font-display: swap;
-  font-weight: 100;
-  src: url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-100-italic.woff2) format("woff2"), url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-100-italic.woff) format("woff"), url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-100-italic.ttf) format("truetype");
-}
-/* iosevka-latin-200-italic */
-@font-face {
-  font-family: "Iosevka";
-  font-style: italic;
-  font-display: swap;
-  font-weight: 200;
-  src: url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-200-italic.woff2) format("woff2"), url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-200-italic.woff) format("woff"), url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-200-italic.ttf) format("truetype");
-}
-/* iosevka-latin-300-italic */
-@font-face {
-  font-family: "Iosevka";
-  font-style: italic;
-  font-display: swap;
-  font-weight: 300;
-  src: url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-300-italic.woff2) format("woff2"), url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-300-italic.woff) format("woff"), url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-300-italic.ttf) format("truetype");
-}
-/* iosevka-latin-400-italic */
-@font-face {
-  font-family: "Iosevka";
-  font-style: italic;
-  font-display: swap;
-  font-weight: 400;
-  src: url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-400-italic.woff2) format("woff2"), url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-400-italic.woff) format("woff"), url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-400-italic.ttf) format("truetype");
-}
-/* iosevka-latin-500-italic */
-@font-face {
-  font-family: "Iosevka";
-  font-style: italic;
-  font-display: swap;
-  font-weight: 500;
-  src: url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-500-italic.woff2) format("woff2"), url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-500-italic.woff) format("woff"), url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-500-italic.ttf) format("truetype");
-}
-/* iosevka-latin-600-italic */
-@font-face {
-  font-family: "Iosevka";
-  font-style: italic;
-  font-display: swap;
-  font-weight: 600;
-  src: url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-600-italic.woff2) format("woff2"), url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-600-italic.woff) format("woff"), url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-600-italic.ttf) format("truetype");
-}
-/* iosevka-latin-700-italic */
-@font-face {
-  font-family: "Iosevka";
-  font-style: italic;
-  font-display: swap;
-  font-weight: 700;
-  src: url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-700-italic.woff2) format("woff2"), url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-700-italic.woff) format("woff"), url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-700-italic.ttf) format("truetype");
-}
-/* iosevka-latin-800-italic */
-@font-face {
-  font-family: "Iosevka";
-  font-style: italic;
-  font-display: swap;
-  font-weight: 800;
-  src: url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-800-italic.woff2) format("woff2"), url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-800-italic.woff) format("woff"), url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-800-italic.ttf) format("truetype");
-}
-/* iosevka-latin-900-italic */
-@font-face {
-  font-family: "Iosevka";
-  font-style: italic;
-  font-display: swap;
-  font-weight: 900;
-  src: url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-900-italic.woff2) format("woff2"), url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-900-italic.woff) format("woff"), url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-900-italic.ttf) format("truetype");
-}
-/* uncut-sans-latin-300-italic */
-@font-face {
-  font-family: "Uncut Sans";
-  font-style: italic;
-  font-display: swap;
-  font-weight: 300;
-  src: url(https://cdn.jsdelivr.net/fontsource/fonts/uncut-sans@latest/latin-300-italic.woff2) format("woff2"), url(https://cdn.jsdelivr.net/fontsource/fonts/uncut-sans@latest/latin-300-italic.woff) format("woff"), url(https://cdn.jsdelivr.net/fontsource/fonts/uncut-sans@latest/latin-300-italic.ttf) format("truetype");
-}
-/* uncut-sans-latin-400-italic */
-@font-face {
-  font-family: "Uncut Sans";
-  font-style: italic;
-  font-display: swap;
-  font-weight: 400;
-  src: url(https://cdn.jsdelivr.net/fontsource/fonts/uncut-sans@latest/latin-400-italic.woff2) format("woff2"), url(https://cdn.jsdelivr.net/fontsource/fonts/uncut-sans@latest/latin-400-italic.woff) format("woff"), url(https://cdn.jsdelivr.net/fontsource/fonts/uncut-sans@latest/latin-400-italic.ttf) format("truetype");
-}
-/* uncut-sans-latin-500-italic */
-@font-face {
-  font-family: "Uncut Sans";
-  font-style: italic;
-  font-display: swap;
-  font-weight: 500;
-  src: url(https://cdn.jsdelivr.net/fontsource/fonts/uncut-sans@latest/latin-500-italic.woff2) format("woff2"), url(https://cdn.jsdelivr.net/fontsource/fonts/uncut-sans@latest/latin-500-italic.woff) format("woff"), url(https://cdn.jsdelivr.net/fontsource/fonts/uncut-sans@latest/latin-500-italic.ttf) format("truetype");
-}
-/* uncut-sans-latin-600-italic */
-@font-face {
-  font-family: "Uncut Sans";
-  font-style: italic;
-  font-display: swap;
-  font-weight: 600;
-  src: url(https://cdn.jsdelivr.net/fontsource/fonts/uncut-sans@latest/latin-600-italic.woff2) format("woff2"), url(https://cdn.jsdelivr.net/fontsource/fonts/uncut-sans@latest/latin-600-italic.woff) format("woff"), url(https://cdn.jsdelivr.net/fontsource/fonts/uncut-sans@latest/latin-600-italic.ttf) format("truetype");
-}
-/* uncut-sans-latin-700-italic */
-@font-face {
-  font-family: "Uncut Sans";
-  font-style: italic;
-  font-display: swap;
-  font-weight: 700;
-  src: url(https://cdn.jsdelivr.net/fontsource/fonts/uncut-sans@latest/latin-700-italic.woff2) format("woff2"), url(https://cdn.jsdelivr.net/fontsource/fonts/uncut-sans@latest/latin-700-italic.woff) format("woff"), url(https://cdn.jsdelivr.net/fontsource/fonts/uncut-sans@latest/latin-700-italic.ttf) format("truetype");
-}
-
 /* Color Scheme - Light Mode (Antigravity Sky Ice Theme) */
 @media (prefers-color-scheme: light) {
   html {
@@ -251,7 +138,7 @@ body {
   height: 100dvh;
   width: 100dvw;
   margin: 0;
-  font-family: "Uncut Sans Regular", sans-serif;
+  font-family: sans-serif;
 }
 
 body > * {
@@ -259,7 +146,7 @@ body > * {
 }
 
 code {
-  font-family: "Iosevka Regular", monospace;
+  font-family: monospace;
 }
 
 main {
