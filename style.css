@@ -159,14 +159,6 @@ main {
   max-width: 1200px;
 }
 
-* {
-  text-transform: lowercase;
-}
-
-code {
-  text-transform: none;
-}
-
 header a {
   text-decoration: none;
 }
